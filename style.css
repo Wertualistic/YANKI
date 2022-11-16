@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
+section h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 42px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+}
+
+.swiper{
+  width: 1200px;
+}
+
+.swiper-button-next{
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  background-color: #E0BEA2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-button-prev{
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  background-color: #E0BEA2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+section .body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+section .body .text h4{
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  background: rgba(224, 190, 162, 0.75);
+  backdrop-filter: blur(3px);
+  padding: 10px 104px;
+  position: relative;
+  bottom: 75px;
+  color: #fff;
+  font-size: 20px;
+}
